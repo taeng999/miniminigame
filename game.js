@@ -19,6 +19,8 @@ var MyScene = cc.Scene.extend({
   },
   
   onMouseDown:function(e) {
+    console.log(e);
+    
     var _this = e.getCurrentTarget();
 
     _this.tree.runAction(
