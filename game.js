@@ -35,7 +35,7 @@ var MyScene = cc.Scene.extend({
     
     this.dog.runAction(
       cc.RepeatForever.create(
-        createAnimation("dog_dangle")));
+        createAnimation("dog_walk")));
     this.dog.runAction(
       cc.MoveBy.create(3, cc.p(0, -200)));
   },
